@@ -15,12 +15,13 @@ body {
     display: flex;
     flex-direction: column;
     padding: 25px 225px;
+    
 
 }
 
 .header {
     font-size: 24px;
-    font-weight: extra-bold;
+    font-weight: 800;
     color: #F9FAF8;
     display: flex;
     justify-content: space-between;
@@ -40,14 +41,14 @@ body {
     justify-content: center;
     align-self: center;
     flex: 1;
-    max-width: 350px;
+    max-width: 400px;
     gap: 10px;
     
 }
 
 .hero-main {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 800;
     color: #F9FAF8;
     display: flex;
 }
@@ -79,3 +80,20 @@ a {
     text-decoration: none;
 }
 
+.sign1 {
+    background: #3882f6;
+    color: #f9faf8;
+    font-weight: 800;
+    font-size: 16px;
+    height: 35px;
+    width: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px;
+}
