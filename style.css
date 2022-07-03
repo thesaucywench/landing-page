@@ -120,14 +120,20 @@ button {
 }
 
 .img-container {
-    display: flex;
-    gap: 35px; 
+    display: flex; 
     padding: 40px;
+    justify-content: center;
+    align-items: center;
 }
 
 .info {
     border-radius: 10px;
     border: 3px solid #3882f6;
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
+    margin: 0 20px 0 20px;
+}
+
+.img-info {
+    display: flex;
 }
