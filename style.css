@@ -78,6 +78,8 @@ a {
     color: #E5E7EB;
     font-size: 18px;
     text-decoration: none;
+    font-weight: 100;
+
 }
 
 .sign1 {
@@ -96,4 +98,36 @@ button {
     padding: 8px 16px;
     border-radius: 8px;
     border: 1px;
+}
+
+.section-two {
+    background-color: white;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 225px;
+    align-items: center;
+}
+
+.info-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.img-container {
+    display: flex;
+    gap: 35px; 
+    padding: 40px;
+}
+
+.info {
+    border-radius: 10px;
+    border: 3px solid #3882f6;
+    height: 100px;
+    width: 100px;
 }
