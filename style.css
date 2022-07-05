@@ -134,6 +134,61 @@ button {
     margin: 0 20px 0 20px;
 }
 
-.img-info {
+.img-text {
     display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+    gap: 25px;
+    font-weight: 100;
+    color: grey;
+    justify-content: center;
+}
+
+.section-three {
+    background-color: #E5E7EB;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    flex-direction: column;
+    font-size: 36px;
+    font-style: light italic;
+    color: #1f2937;
+}
+
+.caption {
+    display: flex;
+    align-items: flex-end;
+}
+
+.section-four {
+    background-color: white;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal {
+    display: flex;
+    height: 100px;
+    width: ;
+
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: white;
 }
