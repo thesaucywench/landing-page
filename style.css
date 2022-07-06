@@ -57,6 +57,7 @@ body {
     display: flex;
     flex-direction: column;
     font-size: 18px;
+    font-weight: normal;
     color:#E5E7EB;
     gap: 10px
 }
@@ -177,11 +178,33 @@ button {
     justify-content: center;
 }
 
+.modal-container {
+    display: flex;
+    border-radius: 8px;
+    height: 125px;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882f6;
+    flex: 1;
+    color: white;
+    padding: 0 150px;
+}
+
 .modal {
     display: flex;
-    height: 100px;
-    width: ;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1;
+    font-size: 24px;
+    font-weight: 800;
+    gap: 3px;
+}
 
+.modal-secondary {
+    font-size: 18px;
+    font-weight: normal;
+    color: white;
 }
 
 .footer {
@@ -191,4 +214,17 @@ button {
     align-items: center;
     height: 100px;
     color: white;
+}
+
+button.sign2 {
+    background: #3882f6;
+    color: #f9faf8;
+    border: 2px solid white;
+    font-weight: 800;
+    font-size: 16px;
+    height: 35px;
+    width: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
